@@ -12,6 +12,11 @@ text_3 = f"hello {date5 = } \n new year"
 
 print("hello" , date5 , "year")
 
+<<<<<<< HEAD
+=======
+# remove it
+
+>>>>>>> c2efb02 (Initial commit)
 
 print(text_3)
 
