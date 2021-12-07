@@ -169,6 +169,9 @@ a = 2
 a += 1  # =    a = a + 1, the same operation we can make with *, -, /
 print(a)
 
+
+print("a" * 3)
+
 -----------------------------------------------------
 
 from fractions import Fraction
@@ -233,6 +236,47 @@ a = b
 b = tmp
 print(a)
 print(b)
+
+-----------------------------------------------------
+
+a = 3 + 5
+b = a / 2
+print(b)
+
+var1 = 500
+var2 = 500
+print(var1 == var2)
+print(var1 is var2)
+
+-----------------------------------------------------
+
+x = 1
+while x <= 10:
+    print("running")
+    x += 1
+    print(x)
+
+-----------------------------------------------------
+
+var3 = "volume1"
+var4 = "v"+"o"+"l"+"u"+"m"+"e"+"1"
+var5 = ["v","o","l","u","m","e","1"]
+print(var5[3])
+var5[1] = "u"
+print(var3)
+print(var4)
+print(var5)
+print(var3 == var4)
+print(var3 == var5)
+
+-----------------------------------------------------
+
+var_1 = "volume1"
+var_2 = ["v","o","l","u","m","e","1"]
+
+var_3 = var_1[:3] + "2" + var_1[4:]
+
+print(var_3)
 
 -----------------------------------------------------
 
