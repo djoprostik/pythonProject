@@ -294,6 +294,11 @@ print("Hello " , date_5 + , year")
 
 -----------------------------------------------------
 
+print(s := 45)
+print(a := 234, f"string {a}")
+
+-----------------------------------------------------
+
 from car import Car
 
 car_1 = Car("Chevy","Corvette","2021","blue")
